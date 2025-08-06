@@ -52,6 +52,8 @@ import { RouterLink, RouterView } from "vue-router";
   background-color: #174b73;
   width: 30%;   /* 左边固定宽度*/
   align-items: center;
+
+  padding: 20px;
 }
 .rightSide {
   flex: 1;    /* 右边占满剩下宽度*/
@@ -59,6 +61,35 @@ import { RouterLink, RouterView } from "vue-router";
   overflow-y: auto;
   background-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+  .leftSide {
+    width: 100%;
+    padding: 15px;
+    align-items: flex-start;
+  }
+  .avatar {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .person {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .rightSide {
+    padding: 20px;
+  }
+}
+
 .avatar {
   margin-top: 20px;
   border-radius: 50%;
