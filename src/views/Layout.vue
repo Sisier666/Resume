@@ -44,7 +44,7 @@ import { RouterLink, RouterView } from "vue-router";
 .layout {
   display: flex;
   flex-direction: row;
-  height: 100vh;   /* 撑满全屏高度*/
+  min-height: 100vh;   /* 撑满全屏高度*/
 }
 .leftSide {
   display: flex;
@@ -91,5 +91,6 @@ li {
 .rew01 {
   margin-left: 15px;
 }
+
 
 </style>
