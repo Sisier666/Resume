@@ -32,24 +32,4 @@ img {
     margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-  .sclski {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  img {
-    margin-bottom: 10px;
-  }
-
-  ul {
-    padding-left: 0;
-  }
-
-  li {
-    font-size: 14px;
-    margin-bottom: 8px;
-  }
-}
-
 </style>

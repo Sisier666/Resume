@@ -62,34 +62,6 @@ import { RouterLink, RouterView } from "vue-router";
   background-color: #ffffff;
 }
 
-@media (max-width: 768px) {
-  .layout {
-    flex-direction: column;
-  }
-  .leftSide {
-    width: 100%;
-    padding: 15px;
-    align-items: flex-start;
-  }
-  .avatar {
-    margin-top: 10px;
-    width: 80px;
-    height: 80px;
-  }
-
-  .person {
-    font-size: 18px;
-  }
-
-  li {
-    font-size: 14px;
-  }
-
-  .rightSide {
-    padding: 20px;
-  }
-}
-
 .avatar {
   margin-top: 20px;
   border-radius: 50%;
