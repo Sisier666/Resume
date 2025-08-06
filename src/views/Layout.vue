@@ -23,10 +23,10 @@ import { RouterLink, RouterView } from "vue-router";
         
 
         <li class="rewards">奖励证书
-          <div class="rewTime">2022<p class="rew01">获学生奖学金三等奖</p></div>
-          <div class="rewTime">2023<p class="rew01">获学生奖学金二等奖</p></div>
           <div class="rewTime">CET-4；</div>
           <div class="rewTime">普通话二级甲等证书；</div>
+          <div class="rewTime">获学生奖学金二等奖</div>
+          <div class="rewTime">获学生奖学金三等奖</div>
         </li>
       </ul>
     </aside>
@@ -50,14 +50,15 @@ import { RouterLink, RouterView } from "vue-router";
   display: flex;
   flex-direction: column;
   background-color: #174b73;
-  width: 30%;   /* 左边固定宽度*/
+  width: 30%;   /* 左边固定宽度 */
   align-items: center;
 
-  padding: 20px;
+  word-break: break-word; /* 超长单词/字母强制换行 */
+
 }
 .rightSide {
   flex: 1;    /* 右边占满剩下宽度*/
-  padding: 40px; 
+  padding: 10px; 
   overflow-y: auto;
   background-color: #ffffff;
 }
@@ -74,6 +75,7 @@ ul {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
   /* gap: 10px; */
 }
 li {
@@ -87,7 +89,6 @@ li {
 .rewTime {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
   color: #eebb5d; 
   font-size: 15px;
 }

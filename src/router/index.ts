@@ -6,7 +6,7 @@ import Projects from "@/views/Projects.vue"
 import Experience from "@/views/Experience.vue"
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(),
     routes: [
         // 用嵌套路由
         {
