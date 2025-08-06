@@ -21,7 +21,6 @@ import { RouterLink, RouterView } from "vue-router";
           <li><RouterLink to="/projects">项目经历</RouterLink></li>
         </nav>
         
-        <li>GitHub地址：</li>
 
         <li class="rewards">奖励证书
           <div class="rewTime">2022<p class="rew01">获学生奖学金三等奖</p></div>
