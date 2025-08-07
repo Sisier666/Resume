@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <div class="layout">
     <!-- 左侧栏 -->
     <aside class="leftSide">
-      <img class="avatar" src="/img/头像.jpg" alt="avatar" width="120"></img>
+      <img class="avatar" src="/img/头像.jpg" alt="avatar" width="100"></img>
       <RouterLink to="/" class="person">※ 个人信息</RouterLink>
       <ul class="contact">
         <li>姓名：曾渝芸</li>
@@ -45,6 +45,7 @@ import { RouterLink, RouterView } from "vue-router";
   display: flex;
   flex-direction: row;
   min-height: 100vh;   /* 撑满全屏高度*/
+  min-width: 60vh;
 }
 .leftSide {
   display: flex;
@@ -69,19 +70,19 @@ import { RouterLink, RouterView } from "vue-router";
 }
 .person{
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
 }
 ul {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  padding-left: 27px;
   /* gap: 10px; */
 }
 li {
   margin-bottom: 10px;
   color: #fff; 
-  font-size: 15px;
+  font-size: 13px;
 }
 .navigate {
   width: 75%;
@@ -90,10 +91,7 @@ li {
   display: flex;
   flex-direction: row;
   color: #eebb5d; 
-  font-size: 15px;
-}
-.rew01 {
-  margin-left: 15px;
+  font-size: 13px;
 }
 
 
