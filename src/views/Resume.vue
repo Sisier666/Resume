@@ -5,7 +5,7 @@
     </div>
     <hr/>
     <div class="time">2021.09-2025.06<div class="school">广州软件学院【本科】</div></div>
-    <div class="profesional">专业：电子与计算机工程<p class="school"> GPA：3.5</p></div>
+    <div class="profesional">专业:电子与计算机工程<p class="school"> GPA:3.5</p></div>
     <p>主修课程：</p>
     <p>C 语言、Linux、Java，数据库原理系统、模拟电子技术基础、数字逻辑电路设计、操作系统、单片机与接口技术等。</p>
     
@@ -69,7 +69,7 @@ li {
     display: flex;
     flex-direction: column;
     color: rgb(8, 114, 135);
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 10px;
 }
 .profesional {
